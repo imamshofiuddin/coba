@@ -24,3 +24,7 @@ Route::get('/vote', function() {
 Route::get('/login', function () {
     return view('login/login');
 });
+
+Route::get('/main', function(){
+    return view('vote_page/vote');
+});
