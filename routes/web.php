@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/vote', function() {
     return "Ini Halaman Voting";
 });
+
+Route::get('/login', function () {
+    return view('login/login');
+});
